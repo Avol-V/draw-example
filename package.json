@@ -1,0 +1,24 @@
+{
+  "name": "ts-draw-demo",
+  "version": "1.0.0",
+  "description": "Demo project, canvas draw application with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas",
+    "draw",
+    "demo",
+    "typescript"
+  ],
+  "author": "Andrey Avol Volynkin",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "postcss-calc": "^5.3.1",
+    "postcss-nesting": "^2.3.1",
+    "typescript": "^2.0.8"
+  }
+}
