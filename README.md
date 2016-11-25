@@ -1,2 +1,4 @@
-# draw-example
-Example drawing app with canvas [RU]
+# Демо-проект программы для рисования на Canvas
+
+Простое web-приложение для рисования на холсте, выполненное с использование 
+TypeScript.

@@ -1,24 +1,33 @@
 {
-  "name": "ts-draw-demo",
+  "name": "draw-example",
   "version": "1.0.0",
-  "description": "Demo project, canvas draw application with TypeScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "canvas",
-    "draw",
-    "demo",
-    "typescript"
-  ],
-  "author": "Andrey Avol Volynkin",
-  "license": "MIT",
+  "description": "Example drawing app with canvas [RU]",
+  "main": "gulpfile.js",
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
     "postcss-calc": "^5.3.1",
     "postcss-nesting": "^2.3.1",
     "typescript": "^2.0.8"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avol-V/draw-example.git"
+  },
+  "keywords": [
+    "canvas",
+    "drow",
+    "demo",
+    "typescript"
+  ],
+  "author": "Andrey Volynkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avol-V/draw-example/issues"
+  },
+  "homepage": "https://github.com/Avol-V/draw-example#readme"
 }
