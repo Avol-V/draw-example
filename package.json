@@ -12,7 +12,10 @@
     "typescript": "^2.0.8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "cd scripts/src && tsc",
+    "watch:scripts": "npm run build:scripts -- -w",
+    "postinstall": "npm run build:scripts"
   },
   "repository": {
     "type": "git",
