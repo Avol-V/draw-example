@@ -15,7 +15,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:scripts": "cd scripts/src && tsc",
     "watch:scripts": "npm run build:scripts -- -w",
-    "postinstall": "npm run build:scripts"
+    "build:styles": "gulp styles",
+    "watch:styles": "gulp styles:watch",
+    "postinstall": "npm run build:scripts && npm run build:styles"
   },
   "repository": {
     "type": "git",
