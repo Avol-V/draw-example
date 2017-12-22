@@ -1,12 +1,16 @@
 {
 	"compilerOptions": {
-		"module": "amd",
-		"target": "es5",
-		"noImplicitAny": true,
+		"module": "esnext",
+		"target": "es2017",
+		
+		"strict": true,
+		
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
 		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"strictNullChecks": true,
-		"outDir": "../build",
+		"noFallthroughCasesInSwitch": true,
+		
+		"removeComments": true,
 		"sourceMap": true
 	}
 }
